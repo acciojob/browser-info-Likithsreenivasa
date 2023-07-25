@@ -46,7 +46,7 @@ function getBrowserInfo() {
 const { browserName, version } = getBrowserInfo();
 
 // Get the div element with the id "browser_info"
-const browserInfoDiv = document.getElementById('browser_info');
+const browserInfoDiv = document.getElementById('browser-info');
 
 // Display the browser information on the page
 browserInfoDiv.textContent = 'You are using ' + browserName + ' version ' + version;
